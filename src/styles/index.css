@@ -1,0 +1,34 @@
+@import url("./card.css");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(#ecaeae, #a2bfec);
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  display: flex;
+  margin: 100px auto;
+  width: 450px;
+  height: 400px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+}
